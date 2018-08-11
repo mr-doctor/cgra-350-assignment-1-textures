@@ -10,6 +10,7 @@
 namespace cgra {
 
     class Mesh {
+
         // Represents a single vertex in the mesh
         struct Vertex {
 
@@ -27,7 +28,7 @@ namespace cgra {
                     m_position(pos), m_normal(norm), m_uv(uv), m_tangent(tangent), m_bitangent(bitangent) { }
         };
 
-        // A list of all the vertices in the mesh
+	    // A list of all the vertices in the mesh
         std::vector<Vertex> m_vertices;
         // A list of indices into m_vertices.
         // Every three indices represents a triangle,
@@ -152,6 +153,16 @@ namespace cgra {
         ~Mesh() {
             deleteMesh();
         }
+
+        void compute_tangents(
+                std::vector<Vertex> &vertices,
+                std::vector<glm::vec3> *tangents,
+                std::vector<glm::vec3> *bitangents,
+                std::vector<glm::vec3> *normals);
+
+	    std::vector<glm::vec3> tangents;
+	    std::vector<glm::vec3> bitangents;
+
     };
 
 }

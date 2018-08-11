@@ -22,7 +22,7 @@
 
 void Application::init() {
 
-    texture = load_DDS_texture(CGRA_SRCDIR "/res/Texture.dds");
+	texture = load_DDS_texture(CGRA_SRCDIR "/res/Texture.dds");
 	normal = load_DDS_texture(CGRA_SRCDIR "/res/NormalMap.dds");
 	set_shaders(CGRA_SRCDIR "/res/shaders/texture.vs.glsl",CGRA_SRCDIR "/res/shaders/texture.fs.glsl");
 //	set_shaders(CGRA_SRCDIR "/res/shaders/simple.vs.glsl",CGRA_SRCDIR "/res/shaders/simple.fs.glsl");
@@ -34,45 +34,42 @@ void Application::init() {
 }
 
 GLuint Application::load_DDS_texture(const char *path) {
-	char header[124];
 
-	FILE * file;
+	unsigned char header[124];
 
-	file = fopen(path, "rb");
+	FILE *fp;
 
-	if (file == nullptr) {
+	/* try to open the file */
+	fp = fopen(path, "rb");
+	if (fp == NULL)
+		return 0;
+
+	/* verify the type of file */
+	char filecode[4];
+	fread(filecode, 1, 4, fp);
+	if (strncmp(filecode, "DDS ", 4) != 0) {
+		fclose(fp);
 		return 0;
 	}
 
-	char file_type[4];
+	/* get the surface desc */
+	fread(&header, 124, 1, fp);
 
-	fread(file_type, 1, 3, file);
-	if (strncmp(file_type, "DDS ", 4) != 0) {
-		fclose(file);
-		return  0;
-	}
-
-	fread(&header, 124, 1, file);
-
-	unsigned int height =           *(unsigned int *)&(header[8]);
-	unsigned int width =            *(unsigned int *)&(header[12]);
-	unsigned int size_linear =      *(unsigned int *)&(header[16]);
-	unsigned int mip_map_count =    *(unsigned int *)&(header[24]);
-	unsigned int four_cc =          *(unsigned int *)&(header[80]);
-
-	unsigned char * buffer;
-	unsigned int size_buffer;
-
-	size_buffer = (mip_map_count > 1) ? size_linear * 2 : size_linear;
-	buffer = (unsigned char *) malloc(size_buffer * sizeof(unsigned char));
-
-	fread(buffer, 1, size_buffer, file);
-
-	fclose(file);
-
-	int format;
-
-	switch(four_cc) {
+	unsigned int height = *(unsigned int *) &(header[8]);
+	unsigned int width = *(unsigned int *) &(header[12]);
+	unsigned int linearSize = *(unsigned int *) &(header[16]);
+	unsigned int mipMapCount = *(unsigned int *) &(header[24]);
+	unsigned int fourCC = *(unsigned int *) &(header[80]);
+	unsigned char *buffer;
+	unsigned int bufsize;
+	/* how big is it going to be including all mipmaps? */
+	bufsize = mipMapCount > 1 ? linearSize * 2 : linearSize;
+	buffer = (unsigned char *) malloc(bufsize * sizeof(unsigned char));
+	fread(buffer, 1, bufsize, fp);
+	/* close the file pointer */
+	fclose(fp);
+	unsigned int format;
+	switch (fourCC) {
 		case FOURCC_DXT1:
 			format = GL_COMPRESSED_RGBA_S3TC_DXT1_EXT;
 			break;
@@ -86,15 +83,18 @@ GLuint Application::load_DDS_texture(const char *path) {
 			free(buffer);
 			return 0;
 	}
+	// Create one OpenGL texture
+	GLuint textureID;
+	glGenTextures(1, &textureID);
 
-	GLuint texture_id;
-	glGenTextures(1, &texture_id);
+	// "Bind" the newly created texture : all future texture functions will modify this texture
+	glBindTexture(GL_TEXTURE_2D, textureID);
+	unsigned int blockSize = (format == GL_COMPRESSED_RGBA_S3TC_DXT1_EXT) ? 8 : 16;
+	unsigned int offset = 0;
 
-	int size_block = (format == GL_COMPRESSED_RGBA_S3TC_DXT1_EXT) ? 8 : 16;
-	int offset = 0;
-
-	for (int level = 0; level < mip_map_count && (width || height); level++) {
-		int size = ((width + 3) / 4) * ((height + 3) / 4) * size_block;
+	/* load the mipmaps */
+	for (unsigned int level = 0; level < mipMapCount && (width || height); ++level) {
+		unsigned int size = ((width + 3) / 4) * ((height + 3) / 4) * blockSize;
 		glCompressedTexImage2D(GL_TEXTURE_2D, level, format, width, height,
 		                       0, size, buffer + offset);
 
@@ -103,8 +103,13 @@ GLuint Application::load_DDS_texture(const char *path) {
 		height /= 2;
 	}
 	free(buffer);
-
-	return texture_id;
+	// When MAGnifying the image (no bigger mipmap available), use LINEAR filtering
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	// When MINifying the image, use a LINEAR blend of two mipmaps, each filtered LINEARLY too
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+	// Generate mipmaps, by the way.
+	glGenerateMipmap(GL_TEXTURE_2D);
+	return textureID;
 }
 
 void Application::set_shaders(const char * vertex, const char * fragment) {
@@ -222,7 +227,7 @@ void Application::createCube() {
 	triangles.setRow(10, { 30, 31, 32 });
 	triangles.setRow(11, { 33, 34, 35 });
 
-    m_mesh.setData(vertices, triangles);
+	m_mesh.setData(vertices, triangles);
 }
 
 glm::vec3 sphere_facet(int i, int j, float thetaStep, float phiStep) {
@@ -288,19 +293,19 @@ void Application::sphere_latlong() {
 			textures.push_back(generate_uv(TR));
 
 
-			 /*
-			 A given facet (2 triangles) of the sphere is represented with indices thus:
-			 0       1
-			 ---------
-			 |      /|
-			 |     / |
-			 |    /  |
-			 |   /   |
-			 |  /    |
-			 | /     |
-			 ---------
-			 2       3
-			  */
+			/*
+			A given facet (2 triangles) of the sphere is represented with indices thus:
+			0       1
+			---------
+			|      /|
+			|     / |
+			|    /  |
+			|   /   |
+			|  /    |
+			| /     |
+			---------
+			2       3
+			 */
 
 
 			tris.emplace_back(indexTL, indexTL + 1, indexTL + 2);
@@ -308,7 +313,7 @@ void Application::sphere_latlong() {
 		}
 	}
 
-	cgra::Matrix<double> vertices(static_cast<unsigned int>(points.size()), 3);
+	cgra::Matrix<double> vertices(static_cast<unsigned int>(points.size()), 5);
 	cgra::Matrix<unsigned int> triangles(static_cast<unsigned int>(tris.size()), 3);
 
 	for (unsigned int k = 0; k < points.size(); k++) {
@@ -323,12 +328,12 @@ void Application::sphere_latlong() {
 }
 
 void Application::cube_face(std::vector<glm::vec3> *points,
-                    std::vector<glm::uvec3> *tris,
-                    std::vector<glm::vec2> *textures,
-                    int face,
-					float radius,
-                    float step_lon,
-                    float step_lat) {
+                            std::vector<glm::uvec3> *tris,
+                            std::vector<glm::vec2> *textures,
+                            int face,
+                            float radius,
+                            float step_lon,
+                            float step_lat) {
 	for (int i = 0; i <= m_divisions_lon; ++i) {
 		for (int j = 0; j <= m_divisions_lat; ++j) {
 			glm::vec3 BL;
@@ -421,7 +426,7 @@ void Application::sphere_from_cube() {
 	}
 
 	m_mesh.setData(vertices, triangles);
-	
+
 }
 
 
@@ -430,59 +435,61 @@ void Application::drawScene() {
 	glUniform1i(unf_texture, 0);
 	unf_texture = glGetUniformLocation(normal, "NormalMap");
 	glUniform1i(unf_texture, 1);
+
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, texture);
 	glActiveTexture(GL_TEXTURE1);
 	glBindTexture(GL_TEXTURE_2D, normal);
-    // Calculate the aspect ratio of the viewport;
-    // width / height
-    float aspectRatio = m_viewportSize.x / m_viewportSize.y;
-    // Calculate the projection matrix with a field-of-view of 45 degrees
-    glm::mat4 projectionMatrix = glm::perspective(glm::radians(45.0f), aspectRatio, 0.1f, 100.0f);
 
-    // Set the projection matrix
-    m_program.setProjectionMatrix(projectionMatrix);
+	// Calculate the aspect ratio of the viewport;
+	// width / height
+	float aspectRatio = m_viewportSize.x / m_viewportSize.y;
+	// Calculate the projection matrix with a field-of-view of 45 degrees
+	glm::mat4 projectionMatrix = glm::perspective(glm::radians(45.0f), aspectRatio, 0.1f, 100.0f);
+
+	// Set the projection matrix
+	m_program.setProjectionMatrix(projectionMatrix);
 	glm::mat4 modelTransform = m_rotationMatrix * glm::mat4(1.0f);
 
-    /************************************************************
-     *                                                          *
-     * Use `m_translation`, `m_scale`, and `m_rotationMatrix`   *
-     * to create the  `modelTransform` matrix.                  *
-     * The following glm functions will be useful:              *
-     *    `glm::translate`                                      *
-     *    `glm::scale`                                          *
-     ************************************************************/
+	/************************************************************
+	 *                                                          *
+	 * Use `m_translation`, `m_scale`, and `m_rotationMatrix`   *
+	 * to create the  `modelTransform` matrix.                  *
+	 * The following glm functions will be useful:              *
+	 *    `glm::translate`                                      *
+	 *    `glm::scale`                                          *
+	 ************************************************************/
 
-    m_program.setModelMatrix(modelTransform);
+	m_program.setModelMatrix(modelTransform);
 
-    // Draw the mesh
-    m_mesh.draw();
+	// Draw the mesh
+	m_mesh.draw();
 }
 
 void Application::doGUI() {
-    ImGui::SetNextWindowSize(ImVec2(450, 450), ImGuiSetCond_FirstUseEver);
-    ImGui::Begin("Shapes");
+	ImGui::SetNextWindowSize(ImVec2(450, 450), ImGuiSetCond_FirstUseEver);
+	ImGui::Begin("Shapes");
 
-    // Example for rotation, use glm to create a a rotation
-    // matrix from this vector
-    static glm::vec3 rotation(0.0f, 0.0f, 0.0f);
-    if (ImGui::InputFloat3("Rotation", &rotation[0])) {
-        // This block is executed if the input changes
+	// Example for rotation, use glm to create a a rotation
+	// matrix from this vector
+	static glm::vec3 rotation(0.0f, 0.0f, 0.0f);
+	if (ImGui::InputFloat3("Rotation", &rotation[0])) {
+		// This block is executed if the input changes
 		m_rotationMatrix = glm::rotate(glm::mat4(1.0f), 45.0f, glm::vec3(rotation[0], rotation[1], rotation[2]));
-    }
+	}
 
-    if (ImGui::SliderInt("Lateral Divisions", &m_divisions_lat, (m_sphere_latlong) ? 4 : 0, 80)) {
-	    (m_sphere_mode == 0) ? sphere_latlong() : sphere_from_cube();
-    }
+	if (ImGui::SliderInt("Lateral Divisions", &m_divisions_lat, (m_sphere_latlong) ? 4 : 0, 80)) {
+		(m_sphere_mode == 0) ? sphere_latlong() : sphere_from_cube();
+	}
 
 	if (ImGui::SliderInt("Longitudinal Divisions", &m_divisions_lon, (m_sphere_latlong) ? 4 : 0, 80)) {
 		(m_sphere_mode == 0) ? sphere_latlong() : sphere_from_cube();
 	}
 
 	if (ImGui::Checkbox("Use sphere from latitude and longitude", &m_sphere_latlong)) {
-    	m_sphere_from_cube = false;
-    	m_sphere_mode = 0;
-    	m_divisions_lon = std::max(4, m_divisions_lon);
+		m_sphere_from_cube = false;
+		m_sphere_mode = 0;
+		m_divisions_lon = std::max(4, m_divisions_lon);
 		m_divisions_lat = std::max(4, m_divisions_lat);
 		sphere_latlong();
 	}
@@ -493,49 +500,49 @@ void Application::doGUI() {
 		sphere_from_cube();
 	}
 
-    ImGui::End();
+	ImGui::End();
 }
 
 
 // Input Handlers
 
 void Application::onMouseButton(int button, int action, int) {
-    if (button >=0 && button < 3) {
-        // Set the 'down' state for the appropriate mouse button
-        m_mouseButtonDown[button] = action == GLFW_PRESS;
-    }
+	if (button >=0 && button < 3) {
+		// Set the 'down' state for the appropriate mouse button
+		m_mouseButtonDown[button] = action == GLFW_PRESS;
+	}
 }
 
 void Application::onCursorPos(double xpos, double ypos) {
 
-    // Make a vec2 with the current mouse position
-    glm::vec2 currentMousePosition(xpos, ypos);
+	// Make a vec2 with the current mouse position
+	glm::vec2 currentMousePosition(xpos, ypos);
 
-    // Get the difference from the previous mouse position
+	// Get the difference from the previous mouse position
 //    glm::vec2 mousePositionDelta = currentMousePosition - m_mousePosition;
 
-    if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_LEFT]) {
-	    apply_arcball(currentMousePosition);
-    } else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_MIDDLE]) {
+	if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_LEFT]) {
+		apply_arcball(currentMousePosition);
+	} else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_MIDDLE]) {
 
-    } else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_RIGHT]) {
+	} else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_RIGHT]) {
 
-    }
+	}
 
-    // Update the mouse position to the current one
-    m_mousePosition = currentMousePosition;
+	// Update the mouse position to the current one
+	m_mousePosition = currentMousePosition;
 }
 
 void Application::onKey(int key, int scancode, int action, int mods) {
-    // `(void)foo` suppresses unused variable warnings
-    (void)key;
-    (void)scancode;
-    (void)action;
-    (void)mods;
+	// `(void)foo` suppresses unused variable warnings
+	(void)key;
+	(void)scancode;
+	(void)action;
+	(void)mods;
 }
 
 void Application::onScroll(double xoffset, double yoffset) {
-    // `(void)foo` suppresses unused variable warnings
-    (void)xoffset;
-    (void)yoffset;
+	// `(void)foo` suppresses unused variable warnings
+	(void)xoffset;
+	(void)yoffset;
 }

@@ -18,9 +18,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/bin/a1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/a1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/build/imgui.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/cgra/mesh.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/cgra/mesh.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/ex1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/ex1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/a1.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/res/shaders/texture.fs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/work/res/shaders/texture.fs.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/res/shaders/texture.vs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/work/res/shaders/texture.vs.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/cgra/mesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/cgra/mesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/cgra/mesh.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/cgra/mesh.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/ex1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/ex1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/work/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +40,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ex1.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ex1.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/src/ex1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="1857">
+              <caret line="430" lean-forward="true" selection-start-line="430" selection-end-line="430" />
             </state>
           </provider>
         </entry>
@@ -45,7 +52,7 @@
       <file leaf-file-name="matrix.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/src/cgra/matrix.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="561">
               <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
@@ -63,17 +70,8 @@
       <file leaf-file-name="ex1.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/src/ex1.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="686">
               <caret line="86" selection-start-line="86" selection-end-line="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cook-torrance.fs.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/res/shaders/cook-torrance.fs.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -81,7 +79,7 @@
       <file leaf-file-name="simple.fs.glsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/res/shaders/simple.fs.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="459">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
@@ -90,26 +88,17 @@
       <file leaf-file-name="texture.fs.glsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/res/shaders/texture.fs.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="425">
+              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="texture.vs.glsl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="texture.vs.glsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/res/shaders/texture.vs.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple.vs.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/res/shaders/simple.vs.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -117,8 +106,26 @@
       <file leaf-file-name="mesh.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/src/cgra/mesh.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="584">
+              <caret line="204" column="9" selection-start-line="204" selection-start-column="9" selection-end-line="204" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mesh.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/src/cgra/mesh.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="737">
+              <caret line="163" column="42" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="839">
+              <caret line="333" selection-start-line="333" selection-end-line="333" />
             </state>
           </provider>
         </entry>
@@ -145,12 +152,22 @@
       <find>-&gt;</find>
       <find>bitange</find>
       <find>unf</find>
+      <find>uv</find>
+      <find>m_divisions</find>
+      <find>vertices</find>
+      <find>cgra::Matrix</find>
+      <find>catch</find>
+      <find>tangent</find>
+      <find>.</find>
     </findStrings>
     <replaceStrings>
       <replace>0.5 : -0.5</replace>
       <replace>acos</replace>
       <replace>PI</replace>
       <replace>.</replace>
+      <replace>m_divisions_lat</replace>
+      <replace>unsigned int</replace>
+      <replace>-&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -159,17 +176,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/src/main.cpp" />
         <option value="$PROJECT_DIR$/work/res/shaders/cook-torrance.vs.glsl" />
         <option value="$PROJECT_DIR$/work/res/shaders/cook-torrance.fs.glsl" />
         <option value="$PROJECT_DIR$/work/res/shaders/simple.fs.glsl" />
         <option value="$PROJECT_DIR$/work/res/shaders/oren-nayar.fs.glsl" />
-        <option value="$PROJECT_DIR$/work/src/cgra/mesh.hpp" />
         <option value="$PROJECT_DIR$/work/src/ex1.hpp" />
+        <option value="$PROJECT_DIR$/work/src/main.cpp" />
+        <option value="$PROJECT_DIR$/work/src/ex1.cpp" />
+        <option value="$PROJECT_DIR$/work/src/cgra/mesh.hpp" />
         <option value="$PROJECT_DIR$/work/src/cgra/mesh.cpp" />
         <option value="$PROJECT_DIR$/work/res/shaders/texture.vs.glsl" />
         <option value="$PROJECT_DIR$/work/res/shaders/texture.fs.glsl" />
-        <option value="$PROJECT_DIR$/work/src/ex1.cpp" />
       </list>
     </option>
   </component>
@@ -312,12 +329,12 @@
       <workItem from="1533792746353" duration="774000" />
       <workItem from="1533808782822" duration="1127000" />
       <workItem from="1533949619026" duration="20151000" />
-      <workItem from="1533983852918" duration="2662000" />
+      <workItem from="1533983852918" duration="8581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86441000" />
+    <option name="totallyTimeSpent" value="92360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -325,7 +342,7 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17966281" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.27813852" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.27813852" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -581,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/src/ex1.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -630,44 +640,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/src/cgra/mesh.hpp">
+    <entry file="file://$PROJECT_DIR$/work/res/shaders/simple.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/src/cgra/matrix.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/src/cgra/mesh.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/src/ex1.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/res/shaders/cook-torrance.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="697">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/res/shaders/simple.fs.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
@@ -679,31 +668,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/src/ex1.cpp">
+    <entry file="file://$PROJECT_DIR$/work/src/ex1.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="686">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/res/shaders/texture.fs.glsl">
+    <entry file="file://$PROJECT_DIR$/work/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="839">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/res/shaders/simple.vs.glsl">
+    <entry file="file://$PROJECT_DIR$/work/src/cgra/matrix.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="561">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/src/cgra/mesh.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="163" column="42" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/src/cgra/mesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="204" column="9" selection-start-line="204" selection-start-column="9" selection-end-line="204" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/res/shaders/texture.vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/res/shaders/texture.fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/src/ex1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1857">
+          <caret line="430" lean-forward="true" selection-start-line="430" selection-end-line="430" />
         </state>
       </provider>
     </entry>

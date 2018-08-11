@@ -23,8 +23,8 @@ const float shininess = 16.0;
 
 void main() {
 
-    vec3 normal = normalize(frag_normal);
-    vec3 light_norm = normalize(-light_direction);
+    vec3 normal = normalize(texture(NormalMap, uv).rgb * 2.0 - 1.0);
+    vec3 light_norm = normalize(TBN * -light_direction);
 
     float lambertian = max(dot(light_norm, normal), 0.0);
     float specular = 0.0;
