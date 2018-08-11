@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\vendor\;CMake Files\vendor\glew\;CMake Files\vendor\glfw\;CMake Files\vendor\glfw\src\;CMake Files\vendor\glm\;CMake Files\vendor\glm\cmake\;CMake Files\vendor\glm\glm\;CMake Files\vendor\glm\test\;CMake Files\vendor\glm\test\bug\;CMake Files\vendor\glm\test\core\;CMake Files\vendor\glm\test\gtc\;CMake Files\vendor\glm\test\gtx\;CMake Files\vendor\imgui\;CMake Files\src\;CMake Files\src\cgra\;CMake Files\res\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/bin/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include"/>
+					<Add directory="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src"/>
+					<Add directory="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/bin/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include"/>
+					<Add directory="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src"/>
+					<Add directory="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/CMake/CGRACompiler.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/CMake/CGRAFunctions.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glew\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\vendor\glfw\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\glm\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test/bug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\bug\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\core\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test/gtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\gtc\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test/gtx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\test\gtx\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\imgui\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/src/cgra/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\cgra\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/res/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

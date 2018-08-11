@@ -1,0 +1,52 @@
+C:\Users\Daniel\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work
+-- The CXX compiler identification is GNU 6.4.0
+-- The C compiler identification is GNU 6.4.0
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found OpenGL: /cygdrive/c/MinGW/lib/libopengl32.a   
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Using X11 for window creation
+-- Using GLX for context creation
+-- Looking for XOpenDisplay in /usr/lib/libX11.dll.a;/usr/lib/libXext.dll.a
+-- Looking for XOpenDisplay in /usr/lib/libX11.dll.a;/usr/lib/libXext.dll.a - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/libX11.dll.a
+-- Looking for glXGetProcAddress
+-- Looking for glXGetProcAddress - not found
+-- Looking for glXGetProcAddressARB
+-- Looking for glXGetProcAddressARB - not found
+-- Looking for glXGetProcAddressEXT
+-- Looking for glXGetProcAddressEXT - not found
+CMake Warning at vendor/glfw/CMakeLists.txt:403 (message):
+  No glXGetProcAddressXXX variant found
+
+
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- GLM is a header only library, no need to build it. Set the option GLM_TEST_ENABLE with ON to build and run the test bench
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug
