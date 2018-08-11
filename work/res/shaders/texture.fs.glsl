@@ -10,8 +10,8 @@ in mat3 TBN;
 out vec3 colour;
 
 // Values that stay constant for the whole mesh.
-uniform sampler2D base_map;
-uniform sampler2D normal_map;
+uniform sampler2D BaseMap;
+uniform sampler2D NormalMap;
 
 const vec3 light_direction = vec3(0.25, 0.25, -1);
 
@@ -38,7 +38,7 @@ void main() {
         specular = pow(spec_angle, shininess);
     }
 
-    colour = texture(base_map, uv).rgb; +
+    colour = texture(BaseMap, uv).rgb +
         lambertian * diffuse_colour +
         specular * spec_colour;
 

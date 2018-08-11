@@ -26,12 +26,12 @@ void main(){
         bitangent,
         normal
     ));
-    
+
     vec4 pos = view_mat * model_mat * vec4(vertex_pos, 1.0);
     frag_position = vec3(pos) / pos.w;
+
     mat3 normal_mat = transpose(inverse(mat3(view_mat * model_mat)));
     frag_normal = normal_mat * vertex_norm;
 
-    mat3 normalMat = transpose(inverse(mat3(view_mat * model_mat)));
     uv = vertex_uv;
 }
