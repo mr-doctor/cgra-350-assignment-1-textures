@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/src/glew.c" "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew/CMakeFiles/glew.dir/src/glew.c.o"
+  "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/src/glew.c" "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew/CMakeFiles/glew.dir/src/glew.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

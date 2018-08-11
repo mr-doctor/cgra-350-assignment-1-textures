@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/src/CMakeFiles/progress.marks
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles 0
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/src/CMakeFiles/progress.marks
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/a1.dir/rule:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/a1.dir/rule
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/a1.dir/rule
 .PHONY : src/CMakeFiles/a1.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ a1: src/CMakeFiles/a1.dir/rule
 
 # fast build rule for target.
 a1/fast:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/build
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/build
 .PHONY : a1/fast
 
 cgra/imgui_impl_glfw_gl3.o: cgra/imgui_impl_glfw_gl3.cpp.o
@@ -177,7 +177,7 @@ cgra/imgui_impl_glfw_gl3.o: cgra/imgui_impl_glfw_gl3.cpp.o
 
 # target to build an object file
 cgra/imgui_impl_glfw_gl3.cpp.o:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o
 .PHONY : cgra/imgui_impl_glfw_gl3.cpp.o
 
 cgra/imgui_impl_glfw_gl3.i: cgra/imgui_impl_glfw_gl3.cpp.i
@@ -186,7 +186,7 @@ cgra/imgui_impl_glfw_gl3.i: cgra/imgui_impl_glfw_gl3.cpp.i
 
 # target to preprocess a source file
 cgra/imgui_impl_glfw_gl3.cpp.i:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.i
 .PHONY : cgra/imgui_impl_glfw_gl3.cpp.i
 
 cgra/imgui_impl_glfw_gl3.s: cgra/imgui_impl_glfw_gl3.cpp.s
@@ -195,7 +195,7 @@ cgra/imgui_impl_glfw_gl3.s: cgra/imgui_impl_glfw_gl3.cpp.s
 
 # target to generate assembly for a file
 cgra/imgui_impl_glfw_gl3.cpp.s:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.s
 .PHONY : cgra/imgui_impl_glfw_gl3.cpp.s
 
 cgra/mesh.o: cgra/mesh.cpp.o
@@ -204,7 +204,7 @@ cgra/mesh.o: cgra/mesh.cpp.o
 
 # target to build an object file
 cgra/mesh.cpp.o:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/mesh.cpp.o
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/mesh.cpp.o
 .PHONY : cgra/mesh.cpp.o
 
 cgra/mesh.i: cgra/mesh.cpp.i
@@ -213,7 +213,7 @@ cgra/mesh.i: cgra/mesh.cpp.i
 
 # target to preprocess a source file
 cgra/mesh.cpp.i:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/mesh.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/mesh.cpp.i
 .PHONY : cgra/mesh.cpp.i
 
 cgra/mesh.s: cgra/mesh.cpp.s
@@ -222,7 +222,7 @@ cgra/mesh.s: cgra/mesh.cpp.s
 
 # target to generate assembly for a file
 cgra/mesh.cpp.s:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/mesh.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/mesh.cpp.s
 .PHONY : cgra/mesh.cpp.s
 
 cgra/shader.o: cgra/shader.cpp.o
@@ -231,7 +231,7 @@ cgra/shader.o: cgra/shader.cpp.o
 
 # target to build an object file
 cgra/shader.cpp.o:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/shader.cpp.o
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/shader.cpp.o
 .PHONY : cgra/shader.cpp.o
 
 cgra/shader.i: cgra/shader.cpp.i
@@ -240,7 +240,7 @@ cgra/shader.i: cgra/shader.cpp.i
 
 # target to preprocess a source file
 cgra/shader.cpp.i:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/shader.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/shader.cpp.i
 .PHONY : cgra/shader.cpp.i
 
 cgra/shader.s: cgra/shader.cpp.s
@@ -249,7 +249,7 @@ cgra/shader.s: cgra/shader.cpp.s
 
 # target to generate assembly for a file
 cgra/shader.cpp.s:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/shader.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/shader.cpp.s
 .PHONY : cgra/shader.cpp.s
 
 cgra/wavefront.o: cgra/wavefront.cpp.o
@@ -258,7 +258,7 @@ cgra/wavefront.o: cgra/wavefront.cpp.o
 
 # target to build an object file
 cgra/wavefront.cpp.o:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o
 .PHONY : cgra/wavefront.cpp.o
 
 cgra/wavefront.i: cgra/wavefront.cpp.i
@@ -267,7 +267,7 @@ cgra/wavefront.i: cgra/wavefront.cpp.i
 
 # target to preprocess a source file
 cgra/wavefront.cpp.i:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/wavefront.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/wavefront.cpp.i
 .PHONY : cgra/wavefront.cpp.i
 
 cgra/wavefront.s: cgra/wavefront.cpp.s
@@ -276,7 +276,7 @@ cgra/wavefront.s: cgra/wavefront.cpp.s
 
 # target to generate assembly for a file
 cgra/wavefront.cpp.s:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/wavefront.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/cgra/wavefront.cpp.s
 .PHONY : cgra/wavefront.cpp.s
 
 ex1.o: ex1.cpp.o
@@ -285,7 +285,7 @@ ex1.o: ex1.cpp.o
 
 # target to build an object file
 ex1.cpp.o:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/ex1.cpp.o
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/ex1.cpp.o
 .PHONY : ex1.cpp.o
 
 ex1.i: ex1.cpp.i
@@ -294,7 +294,7 @@ ex1.i: ex1.cpp.i
 
 # target to preprocess a source file
 ex1.cpp.i:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/ex1.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/ex1.cpp.i
 .PHONY : ex1.cpp.i
 
 ex1.s: ex1.cpp.s
@@ -303,7 +303,7 @@ ex1.s: ex1.cpp.s
 
 # target to generate assembly for a file
 ex1.cpp.s:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/ex1.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/ex1.cpp.s
 .PHONY : ex1.cpp.s
 
 main.o: main.cpp.o
@@ -312,7 +312,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/main.cpp.o
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -321,7 +321,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/main.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -330,7 +330,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/main.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(MAKE) -f src/CMakeFiles/a1.dir/build.make src/CMakeFiles/a1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

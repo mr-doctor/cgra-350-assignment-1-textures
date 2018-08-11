@@ -1,4 +1,4 @@
-C:\Users\Daniel\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work
+C:\Users\Daniel\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work
 -- The CXX compiler identification is GNU 6.4.0
 -- The C compiler identification is GNU 6.4.0
 -- Check for working CXX compiler: /usr/bin/c++.exe
@@ -49,4 +49,4 @@ CMake Warning at vendor/glfw/CMakeLists.txt:403 (message):
 -- GLM is a header only library, no need to build it. Set the option GLM_TEST_ENABLE with ON to build and run the test bench
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug

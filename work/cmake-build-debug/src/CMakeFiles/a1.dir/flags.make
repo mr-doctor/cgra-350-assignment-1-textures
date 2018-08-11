@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++.exe
 CXX_FLAGS =  -std=c++1y -fno-operator-names -Wall -Wextra -pedantic -Woverloaded-virtual -Werror=format-security -Werror=return-type -fdiagnostics-color -O0 -g  
 
-CXX_DEFINES = -DCGRA_SRCDIR=\"/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work\" -DGLEW_STATIC
+CXX_DEFINES = -DCGRA_SRCDIR=\"/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work\" -DGLEW_STATIC
 
-CXX_INCLUDES = -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/src -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui 
+CXX_INCLUDES = -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/src -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glm -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui 
 

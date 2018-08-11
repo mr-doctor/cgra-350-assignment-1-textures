@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include vendor/glew/CMakeFiles/glew.dir/depend.make
@@ -59,16 +59,16 @@ include vendor/glew/CMakeFiles/glew.dir/flags.make
 
 vendor/glew/CMakeFiles/glew.dir/src/glew.c.o: vendor/glew/CMakeFiles/glew.dir/flags.make
 vendor/glew/CMakeFiles/glew.dir/src/glew.c.o: ../vendor/glew/src/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendor/glew/CMakeFiles/glew.dir/src/glew.c.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendor/glew/CMakeFiles/glew.dir/src/glew.c.o"
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/src/glew.c
 
 vendor/glew/CMakeFiles/glew.dir/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glew.c.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/src/glew.c > CMakeFiles/glew.dir/src/glew.c.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/src/glew.c > CMakeFiles/glew.dir/src/glew.c.i
 
 vendor/glew/CMakeFiles/glew.dir/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glew.c.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/src/glew.c -o CMakeFiles/glew.dir/src/glew.c.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/src/glew.c -o CMakeFiles/glew.dir/src/glew.c.s
 
 vendor/glew/CMakeFiles/glew.dir/src/glew.c.o.requires:
 
@@ -91,9 +91,9 @@ glew_EXTERNAL_OBJECTS =
 bin/libglew.a: vendor/glew/CMakeFiles/glew.dir/src/glew.c.o
 bin/libglew.a: vendor/glew/CMakeFiles/glew.dir/build.make
 bin/libglew.a: vendor/glew/CMakeFiles/glew.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../bin/libglew.a"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean_target.cmake
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../bin/libglew.a"
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean_target.cmake
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vendor/glew/CMakeFiles/glew.dir/build: bin/libglew.a
@@ -105,10 +105,10 @@ vendor/glew/CMakeFiles/glew.dir/requires: vendor/glew/CMakeFiles/glew.dir/src/gl
 .PHONY : vendor/glew/CMakeFiles/glew.dir/requires
 
 vendor/glew/CMakeFiles/glew.dir/clean:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean.cmake
 .PHONY : vendor/glew/CMakeFiles/glew.dir/clean
 
 vendor/glew/CMakeFiles/glew.dir/depend:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glew/CMakeFiles/glew.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glew/CMakeFiles/glew.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vendor/glew/CMakeFiles/glew.dir/depend
 

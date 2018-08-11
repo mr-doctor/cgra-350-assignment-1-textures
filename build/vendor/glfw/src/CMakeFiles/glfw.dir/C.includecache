@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/EGL/eglext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/EGL/eglext.h
 EGL/eglplatform.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/GL/glext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/GL/glext.h
 windows.h
 -
 stddef.h
@@ -28,7 +28,7 @@ stdint.h
 inttypes.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/GL/glxext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/GL/glxext.h
 inttypes.h
 -
 inttypes.h
@@ -42,11 +42,11 @@ stdint.h
 inttypes.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/GL/wglext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/GL/wglext.h
 windows.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include/GLFW/glfw3.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/include/GLFW/glfw3.h
 stddef.h
 -
 OpenGL/gl3.h
@@ -82,7 +82,7 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/cocoa_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/cocoa_platform.h
 stdint.h
 -
 Cocoa/Cocoa.h
@@ -90,15 +90,15 @@ Cocoa/Cocoa.h
 ApplicationServices/ApplicationServices.h
 -
 posix_tls.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_tls.h
 nsgl_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/nsgl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/nsgl_context.h
 iokit_joystick.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/iokit_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/iokit_joystick.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/context.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/context.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdio.h
 -
 string.h
@@ -108,25 +108,25 @@ limits.h
 stdio.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/egl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/egl_context.h
 EGL/egl.h
 -
 ../deps/EGL/eglext.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/EGL/eglext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/EGL/eglext.h
 dlfcn.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glx_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/glx_context.h
 GL/glx.h
 -
 ../deps/GL/glxext.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/GL/glxext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/GL/glxext.h
 dlfcn.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/init.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/init.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 string.h
 -
 stdlib.h
@@ -136,33 +136,33 @@ stdio.h
 stdarg.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/input.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/input.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdlib.h
 -
 malloc.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 glfw_config.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glfw_config.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/glfw_config.h
 ../include/GLFW/glfw3.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include/GLFW/glfw3.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/include/GLFW/glfw3.h
 ../deps/GL/glext.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/GL/glext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/GL/glext.h
 cocoa_platform.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/cocoa_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/cocoa_platform.h
 win32_platform.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_platform.h
 x11_platform.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/x11_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/x11_platform.h
 wl_platform.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/wl_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/wl_platform.h
 mir_platform.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/mir_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/mir_platform.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/iokit_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/iokit_joystick.h
 IOKit/IOKitLib.h
 -
 IOKit/IOCFPlugIn.h
@@ -172,29 +172,29 @@ IOKit/hid/IOHIDLib.h
 IOKit/hid/IOHIDKeys.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/linux_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/linux_joystick.h
 regex.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/mir_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/mir_platform.h
 mir_toolkit/mir_client_library.h
 -
 posix_tls.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_tls.h
 posix_time.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_time.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_time.h
 linux_joystick.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/linux_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/linux_joystick.h
 sys/queue.h
 -
 pthread.h
 -
 egl_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/egl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/egl_context.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/monitor.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/monitor.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 math.h
 -
 float.h
@@ -206,19 +206,19 @@ stdlib.h
 limits.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/nsgl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/nsgl_context.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_time.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_time.h
 stdint.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_tls.h
 pthread.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/wgl_context.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/wgl_context.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdlib.h
 -
 malloc.h
@@ -226,21 +226,21 @@ malloc.h
 assert.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/wgl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/wgl_context.h
 ../deps/GL/wglext.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/deps/GL/wglext.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/deps/GL/wglext.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_init.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_init.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdlib.h
 -
 malloc.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_monitor.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_monitor.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdlib.h
 -
 string.h
@@ -250,7 +250,7 @@ limits.h
 malloc.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_platform.h
 windows.h
 -
 mmsystem.h
@@ -260,27 +260,27 @@ dbt.h
 malloc.h
 -
 win32_tls.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_tls.h
 wgl_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/wgl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/wgl_context.h
 egl_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/egl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/egl_context.h
 winmm_joystick.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/winmm_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/winmm_joystick.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_time.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_time.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_tls.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_tls.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_tls.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_window.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_window.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdlib.h
 -
 malloc.h
@@ -292,37 +292,37 @@ windowsx.h
 shellapi.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/window.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/window.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 string.h
 -
 stdlib.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/winmm_joystick.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/winmm_joystick.c
 internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/internal.h
 stdlib.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/winmm_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/winmm_joystick.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/wl_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/wl_platform.h
 wayland-client.h
 -
 xkbcommon/xkbcommon.h
 -
 egl_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/egl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/egl_context.h
 posix_tls.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_tls.h
 posix_time.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_time.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_time.h
 linux_joystick.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/linux_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/linux_joystick.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/x11_platform.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/x11_platform.h
 unistd.h
 -
 signal.h
@@ -348,19 +348,19 @@ X11/extensions/XInput2.h
 X11/extensions/xf86vmode.h
 -
 posix_tls.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_tls.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_tls.h
 glx_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/glx_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/glx_context.h
 egl_context.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/egl_context.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/egl_context.h
 posix_time.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/posix_time.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/posix_time.h
 linux_joystick.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/linux_joystick.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/linux_joystick.h
 xkb_unicode.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/xkb_unicode.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/xkb_unicode.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/xkb_unicode.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/xkb_unicode.h
 
 vendor/glfw/src/glfw_config.h
 

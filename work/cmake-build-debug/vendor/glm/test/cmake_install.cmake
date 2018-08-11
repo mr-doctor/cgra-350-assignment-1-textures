@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test
+# Install script for directory: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glm/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glm/test/bug/cmake_install.cmake")
-  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glm/test/core/cmake_install.cmake")
-  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glm/test/gtc/cmake_install.cmake")
-  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glm/test/gtx/cmake_install.cmake")
+  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glm/test/bug/cmake_install.cmake")
+  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glm/test/core/cmake_install.cmake")
+  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glm/test/gtc/cmake_install.cmake")
+  include("/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glm/test/gtx/cmake_install.cmake")
 
 endif()
 

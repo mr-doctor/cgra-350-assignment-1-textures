@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/include/GL/glew.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/include/GL/glew.h
 stddef.h
 -
 inttypes.h
@@ -20,7 +20,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/include/GL/glxew.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/include/GL/glxew.h
 X11/Xlib.h
 -
 X11/Xutil.h
@@ -30,11 +30,11 @@ X11/Xmd.h
 GL/glew.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/include/GL/wglew.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/include/GL/wglew.h
 windows.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/src/glew.c
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/src/glew.c
 GL/glew.h
 -
 GL/wglew.h

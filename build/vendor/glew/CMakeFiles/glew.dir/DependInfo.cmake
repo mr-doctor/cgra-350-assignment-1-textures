@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/src/glew.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glew/CMakeFiles/glew.dir/src/glew.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/src/glew.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glew/CMakeFiles/glew.dir/src/glew.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glew/include"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glew/include"
   )
 
 # Targets to which this target links.

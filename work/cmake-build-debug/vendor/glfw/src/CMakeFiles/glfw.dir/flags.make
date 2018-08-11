@@ -6,5 +6,5 @@ C_FLAGS =  -w -O0 -g   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/glfw/src 
+C_INCLUDES = -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/glfw/src 
 

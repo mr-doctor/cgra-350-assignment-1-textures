@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work
+# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glew/cmake_install.cmake")
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/cmake_install.cmake")
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glm/cmake_install.cmake")
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/imgui/cmake_install.cmake")
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/src/cmake_install.cmake")
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/res/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glew/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glm/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/imgui/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/src/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/res/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imconfig.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imconfig.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.cpp
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.cpp
 imgui.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.h
 imgui_internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_internal.h
 ctype.h
 -
 stdlib.h
@@ -26,17 +26,17 @@ stddef.h
 stdint.h
 -
 stb_textedit.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_textedit.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_textedit.h
 windows.h
 -
 imm.h
 -
 imgui_user.inl
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_user.inl
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_user.inl
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.h
 imconfig.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imconfig.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imconfig.h
 float.h
 -
 stdarg.h
@@ -48,13 +48,13 @@ string.h
 assert.h
 -
 imgui_user.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_user.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_user.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_draw.cpp
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_draw.cpp
 imgui.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.h
 imgui_internal.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_internal.h
 stdio.h
 -
 malloc.h
@@ -64,35 +64,35 @@ stdlib.h
 alloca.h
 -
 stb_rect_pack.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_rect_pack.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_rect_pack.h
 stb_truetype.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_truetype.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_truetype.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_internal.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_internal.h
 stdio.h
 -
 math.h
 -
 stb_textedit.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_textedit.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_textedit.h
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_rect_pack.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_rect_pack.h
 stdlib.h
 -
 assert.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_textedit.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_textedit.h
 string.h
 -
 
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_truetype.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_truetype.h
 stb_truetype.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_truetype.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/stb_truetype.h
+C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/stb_truetype.h
 math.h
 -
 math.h

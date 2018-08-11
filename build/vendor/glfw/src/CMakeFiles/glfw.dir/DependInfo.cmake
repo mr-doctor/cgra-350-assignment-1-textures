@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/context.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/init.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/input.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/monitor.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/wgl_context.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_init.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_monitor.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_time.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_tls.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/win32_window.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/window.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src/winmm_joystick.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/context.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/init.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/input.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/monitor.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/wgl_context.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_init.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_monitor.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_time.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_tls.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/win32_window.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/window.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src/winmm_joystick.c" "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -28,8 +28,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include"
-  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/include"
+  "C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src"
   "vendor/glfw/src"
   )
 

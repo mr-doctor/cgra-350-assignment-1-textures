@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include vendor/imgui/CMakeFiles/imgui.dir/depend.make
@@ -59,16 +59,16 @@ include vendor/imgui/CMakeFiles/imgui.dir/flags.make
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: vendor/imgui/CMakeFiles/imgui.dir/flags.make
 vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: ../vendor/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.cpp
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o.requires:
 
@@ -83,16 +83,16 @@ vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o.provides.build: vendor/imgui/CMake
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: vendor/imgui/CMakeFiles/imgui.dir/flags.make
 vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: ../vendor/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_draw.cpp
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_draw.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_draw.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
 
 vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o.requires:
 
@@ -117,9 +117,9 @@ bin/libimgui.a: vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
 bin/libimgui.a: vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
 bin/libimgui.a: vendor/imgui/CMakeFiles/imgui.dir/build.make
 bin/libimgui.a: vendor/imgui/CMakeFiles/imgui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../bin/libimgui.a"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean_target.cmake
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../bin/libimgui.a"
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean_target.cmake
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vendor/imgui/CMakeFiles/imgui.dir/build: bin/libimgui.a
@@ -132,10 +132,10 @@ vendor/imgui/CMakeFiles/imgui.dir/requires: vendor/imgui/CMakeFiles/imgui.dir/im
 .PHONY : vendor/imgui/CMakeFiles/imgui.dir/requires
 
 vendor/imgui/CMakeFiles/imgui.dir/clean:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean.cmake
 .PHONY : vendor/imgui/CMakeFiles/imgui.dir/clean
 
 vendor/imgui/CMakeFiles/imgui.dir/depend:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui/CMakeFiles/imgui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui/CMakeFiles/imgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vendor/imgui/CMakeFiles/imgui.dir/depend
 

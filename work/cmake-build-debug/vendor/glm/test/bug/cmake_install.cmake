@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glm/test/bug
+# Install script for directory: /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glm/test/bug
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

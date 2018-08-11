@@ -1,12 +1,37 @@
 #version 330 core
 
-layout(location = 0) in vec3 vertex_position_modelspace;
-layout(location = 1) in vec2 vertex_uv;
+uniform mat4 model_mat;
+uniform mat4 view_mat;
+uniform mat4 proj_mat;
+
+in vec3 vertex_pos;
+in vec3 vertex_norm;
+in vec2 vertex_uv;
+in vec3 vertex_tan;
+in vec3 vertex_bitan;
 
 out vec2 uv;
-uniform mat4 mvp_matrix;
+out vec3 frag_position;
+out vec3 frag_normal;
+out mat3 TBN;
 
 void main(){
-    gl_Position = mvp_matrix * vec4(vertex_position_modelspace, 1);
+
+    gl_Position = proj_mat * view_mat * model_mat * vec4(vertex_pos, 1.0);
+    vec4 normal = proj_mat * view_mat * model_mat * vec4(normalize(vertex_pos), 1.0);
+    vec4 tangent = proj_mat * view_mat * model_mat * vec4(normalize(vertex_tan), 1.0);
+    vec4 bitangent = proj_mat * view_mat * model_mat * vec4(normalize(vertex_bitan), 1.0);
+    TBN = transpose(mat3(
+        tangent,
+        bitangent,
+        normal
+    ));
+    
+    vec4 pos = view_mat * model_mat * vec4(vertex_pos, 1.0);
+    frag_position = vec3(pos) / pos.w;
+    mat3 normal_mat = transpose(inverse(mat3(view_mat * model_mat)));
+    frag_normal = normal_mat * vertex_norm;
+
+    mat3 normalMat = transpose(inverse(mat3(view_mat * model_mat)));
     uv = vertex_uv;
 }

@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
-Change Dir: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_8ad17/fast"
-C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_8ad17.dir\build.make CMakeFiles/cmTC_8ad17.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ad17.dir/src.c.obj
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe   -w -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_8ad17.dir\src.c.obj   -c C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_8ad17.exe
-"C:\Program Files\cmake-3.11.0-win64-x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8ad17.dir\link.txt --verbose=1
-"C:\Program Files\cmake-3.11.0-win64-x64\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8ad17.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_8ad17.dir/objects.a @CMakeFiles\cmTC_8ad17.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe  -w -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_8ad17.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8ad17.exe -Wl,--out-implib,libcmTC_8ad17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8ad17.dir\linklibs.rsp
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_41bf1/fast"
+C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_41bf1.dir\build.make CMakeFiles/cmTC_41bf1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41bf1.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe   -w -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_41bf1.dir\src.c.obj   -c C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_41bf1.exe
+"C:\Program Files\cmake-3.11.0-win64-x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_41bf1.dir\link.txt --verbose=1
+"C:\Program Files\cmake-3.11.0-win64-x64\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_41bf1.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_41bf1.dir/objects.a @CMakeFiles\cmTC_41bf1.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe  -w -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_41bf1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_41bf1.exe -Wl,--out-implib,libcmTC_41bf1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_41bf1.dir\linklibs.rsp
 C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
 C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/bin/ld.exe: use the --help option for usage information
 collect2.exe: error: ld returned 1 exit status
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_8ad17.dir\build.make:88: cmTC_8ad17.exe] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:125: cmTC_8ad17/fast] Error 2
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_41bf1.dir\build.make:88: cmTC_41bf1.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:125: cmTC_41bf1/fast] Error 2
 
 Source file was:
 int main(void) { return 0; }

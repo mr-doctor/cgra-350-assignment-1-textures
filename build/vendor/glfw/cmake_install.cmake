@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw
+# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/build/vendor/glfw/src/cmake_install.cmake")
+  include("C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/build/vendor/glfw/src/cmake_install.cmake")
 
 endif()
 

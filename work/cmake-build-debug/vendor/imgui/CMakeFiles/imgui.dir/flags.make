@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++1y -fno-operator-names -Wall -Wextra -pedantic -Woverloaded
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui 
+CXX_INCLUDES = -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/include -I/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui 
 

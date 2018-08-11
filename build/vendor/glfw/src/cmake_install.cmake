@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/glfw/src
+# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

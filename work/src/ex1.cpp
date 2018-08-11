@@ -29,14 +29,6 @@ void Application::init() {
 //	set_shaders(CGRA_SRCDIR "/res/shaders/cook-torrance.vs.glsl",CGRA_SRCDIR "/res/shaders/simple.fs.glsl");
 //	set_shaders(CGRA_SRCDIR "/res/shaders/oren-nayar.vs.glsl",CGRA_SRCDIR "/res/shaders/simple.fs.glsl");
 
-    glm::mat4 viewMatrix(1);
-    viewMatrix[3] = glm::vec4(0, 0, -10, 1);
-    m_program.setViewMatrix(viewMatrix);
-
-	glm::vec3 rotation(1.0f, 1.0f, 0.0f);
-	m_rotationMatrix = glm::rotate(glm::mat4(1.0f), 45.0f, glm::vec3(rotation[0], rotation[1], rotation[2]));
-
-    // Create the cube mesh
 //    createCube();
 	sphere_latlong();
 }
@@ -116,7 +108,13 @@ GLuint Application::load_DDS_texture(const char *path) {
 }
 
 void Application::set_shaders(const char * vertex, const char * fragment) {
-	   m_program = cgra::Program::load_program(vertex, fragment);
+	m_program = cgra::Program::load_program(vertex, fragment);
+	glm::mat4 viewMatrix(1);
+	viewMatrix[3] = glm::vec4(0, 0, -10, 1);
+	m_program.setViewMatrix(viewMatrix);
+
+	glm::vec3 rotation(1.0f, 1.0f, 0.0f);
+	m_rotationMatrix = glm::rotate(glm::mat4(1.0f), 45.0f, glm::vec3(rotation[0], rotation[1], rotation[2]));
 }
 
 void print(std::string string) {

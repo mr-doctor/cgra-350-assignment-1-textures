@@ -47,10 +47,10 @@ RM = "C:\Program Files\cmake-3.11.0-win64-x64\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\work
+CMAKE_SOURCE_DIR = C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build
+CMAKE_BINARY_DIR = C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,14 +125,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build\CMakeFiles C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build\vendor\imgui\CMakeFiles\progress.marks
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build\CMakeFiles 0
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build\CMakeFiles C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build\vendor\imgui\CMakeFiles\progress.marks
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/clean
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/preinstall
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/preinstall
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vendor/imgui/CMakeFiles/imgui.dir/rule:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/CMakeFiles/imgui.dir/rule
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f CMakeFiles\Makefile2 vendor/imgui/CMakeFiles/imgui.dir/rule
 .PHONY : vendor/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ imgui: vendor/imgui/CMakeFiles/imgui.dir/rule
 
 # fast build rule for target.
 imgui/fast:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/build
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
 imgui.obj: imgui.cpp.obj
@@ -176,7 +176,7 @@ imgui.obj: imgui.cpp.obj
 
 # target to build an object file
 imgui.cpp.obj:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.obj
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.obj
 .PHONY : imgui.cpp.obj
 
 imgui.i: imgui.cpp.i
@@ -185,7 +185,7 @@ imgui.i: imgui.cpp.i
 
 # target to preprocess a source file
 imgui.cpp.i:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.i
 .PHONY : imgui.cpp.i
 
 imgui.s: imgui.cpp.s
@@ -194,7 +194,7 @@ imgui.s: imgui.cpp.s
 
 # target to generate assembly for a file
 imgui.cpp.s:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
 .PHONY : imgui.cpp.s
 
 imgui_draw.obj: imgui_draw.cpp.obj
@@ -203,7 +203,7 @@ imgui_draw.obj: imgui_draw.cpp.obj
 
 # target to build an object file
 imgui_draw.cpp.obj:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.obj
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.obj
 .PHONY : imgui_draw.cpp.obj
 
 imgui_draw.i: imgui_draw.cpp.i
@@ -212,7 +212,7 @@ imgui_draw.i: imgui_draw.cpp.i
 
 # target to preprocess a source file
 imgui_draw.cpp.i:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i
 .PHONY : imgui_draw.cpp.i
 
 imgui_draw.s: imgui_draw.cpp.s
@@ -221,7 +221,7 @@ imgui_draw.s: imgui_draw.cpp.s
 
 # target to generate assembly for a file
 imgui_draw.cpp.s:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(MAKE) -f vendor\imgui\CMakeFiles\imgui.dir\build.make vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s
 .PHONY : imgui_draw.cpp.s
 
 # Help Target
@@ -254,6 +254,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Daniel\workspace\cgra350\cgra-350-assignment-1-textures\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

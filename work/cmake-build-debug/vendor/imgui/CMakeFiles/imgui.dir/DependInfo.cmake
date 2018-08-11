@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui.cpp" "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
-  "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/vendor/imgui/imgui_draw.cpp" "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1/work/cmake-build-debug/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+  "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui.cpp" "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+  "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/vendor/imgui/imgui_draw.cpp" "/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-1-textures/work/cmake-build-debug/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
